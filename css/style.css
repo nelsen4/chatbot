@@ -1,0 +1,93 @@
+/* GLOBAL */
+* {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+section {
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+}
+#channels-view {
+    width: 399px;
+    height: 100vh;
+    border-right: 1px solid black;
+}
+#chat-section {
+    left: 400px;
+    width: calc(100% - 400px)
+}
+
+/* APP BAR */
+.headbar {
+    box-sizing: border-box;
+    padding-left:10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    background-color: bisque;
+    text-align: left;
+    bottom: 100px; 
+    
+}
+
+.logo-img {
+    background-color: blue;
+}
+
+/* CHANNELS LIST */
+.channel-list {
+    background-color: white;
+    list-style-type: none;
+}
+.selected-channel {
+    background-color: lightgrey;
+    border-right: 5px solid black;
+}
+li {
+    box-sizing: border-box;
+    padding: 22px;
+    height: 66px;
+
+}
+
+/* MESSAGES */
+#selected-channel{
+    display: inline;
+}
+.message{
+    width: 75%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.author {
+    font-size: 12px;
+    font-weight: 999;
+    color: blue;
+    padding: 5px;
+    padding-top: 0px;
+}
+
+.content{
+    padding: 5px;
+}
+
+.outgoing{
+    background-color: lightgray;
+}
+
+.incoming{
+    background-color: gray;
+}
+
+#input-area{
+    padding: 20px;
+}
